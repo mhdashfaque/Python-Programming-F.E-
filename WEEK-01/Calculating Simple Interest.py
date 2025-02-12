@@ -1,0 +1,23 @@
+'''
+AIM: 5. Calculating Simple Interest:
+Write a Python program to calculate
+the simple interest based on user input.
+The program should prompt the user to enter the principal amount,
+the rate of interest, and the time period in years.
+It should then compute the simple interest using the formula
+Simple Interest=(Principal×Rate×Time) /100
+and display the result.
+
+NAME: SHAIKH MOHD ASHFAQUE
+'''
+
+# Prompt the user for the principal amount, rate of interest, and time period
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time period (in years): "))
+
+# Calculate simple interest using the formula
+simple_interest = (principal * rate * time) / 100
+
+# Display the result
+print(f"\nThe simple interest is: {simple_interest:.2f}")
